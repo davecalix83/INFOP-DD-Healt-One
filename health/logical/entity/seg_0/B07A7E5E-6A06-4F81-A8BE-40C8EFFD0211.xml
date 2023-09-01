@@ -22,31 +22,51 @@
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre medicamento" id="991A79AE-F449-7F77-C468-3DBAD547FF00">
+<Attribute name="id1" id="6C329BC6-0CE5-1131-0DD4-B0F49C18987B">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:53:49 UTC</createdTime>
+<createdTime>2023-09-01 21:26:07 UTC</createdTime>
+<generatorID>E78ADF75-7913-D8EC-C777-D5C59D1DB3FC</generatorID>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<referedAttribute>AF4FE98E-7C57-D1C2-F9AE-45702214E28D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duracion" id="1444CCCC-FADC-46BA-1C69-0BD557F0F918">
+<Attribute name="posologia" id="9348AB8B-9D62-5936-C852-D8D805F411ED">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:53:48 UTC</createdTime>
+<createdTime>2023-09-01 21:53:41 UTC</createdTime>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69A269F5-FBD6-6ADA-F4E7-DAEE1B738EB7" name="PRESCRIPCION MEDICA PK">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-01 21:24:08 UTC</createdTime>
+<ownerDesignName>health</ownerDesignName>
+<engineerTo>
+<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF4FEA83-76E7-D507-D9FC-B29B797F6CD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
