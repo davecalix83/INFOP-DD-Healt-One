@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B07A7E5E-6A06-4F81-A8BE-40C8EFFD0211" name=" PRESCRIPCION MEDICA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="076221AF-CFE7-6B93-F610-4CE84F52B4DA" name="ASEGURADORA">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:38:34 UTC</createdTime>
+<createdTime>2023-09-01 21:19:03 UTC</createdTime>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="BF4FEA83-76E7-D507-D9FC-B29B797F6CD7">
+<Attribute name="id" id="DB4E3330-3DDE-5F7D-44E7-A00D4F486917">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:53:45 UTC</createdTime>
+<createdTime>2023-09-01 21:19:27 UTC</createdTime>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
@@ -26,9 +26,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre medicamento" id="991A79AE-F449-7F77-C468-3DBAD547FF00">
+<Attribute name="nombre" id="CEC6D479-93B2-70C6-EE8F-5C7AA4A243B9">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:53:49 UTC</createdTime>
+<createdTime>2023-09-01 21:19:28 UTC</createdTime>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
@@ -37,9 +37,20 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="duracion" id="1444CCCC-FADC-46BA-1C69-0BD557F0F918">
+<Attribute name="telefono" id="7B1DA3A7-2EA0-D23B-EBE4-F7AC5B9FDCF3">
 <createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:53:48 UTC</createdTime>
+<createdTime>2023-09-01 21:19:28 UTC</createdTime>
+<ownerDesignName>health</ownerDesignName>
+<engineerTo>
+<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="78A879AC-169A-1F04-3D82-960F5AAD2254">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-09-01 21:19:29 UTC</createdTime>
 <ownerDesignName>health</ownerDesignName>
 <engineerTo>
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>

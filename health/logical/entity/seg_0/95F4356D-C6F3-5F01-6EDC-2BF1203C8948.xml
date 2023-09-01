@@ -23,7 +23,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="B3C5FE54-EB80-C0FD-B096-54448822777F">
@@ -34,7 +35,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="8C3AC2C0-C201-3777-29DB-141F1F1E43F3">
@@ -45,7 +47,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="contacto" id="DB430275-6CD9-DB94-69B1-EF6EA7E88619">
@@ -56,7 +59,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -35,7 +35,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="99AA6D23-A481-96DB-F5F1-47B8D1E94DEE">
@@ -46,7 +47,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="320FE704-5B15-C87C-BAA7-47AD7DC328F1">
@@ -57,7 +59,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="correo" id="B138D7C7-143C-4F03-909A-5F5DE76294DC">
@@ -68,40 +71,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="medico" id="2D7CDC4C-5B42-0550-A47A-35B7AB83FB84">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:43:35 UTC</createdTime>
-<ownerDesignName>health</ownerDesignName>
-<engineerTo>
-<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id seguro medico" id="57147A21-708F-4B66-13C6-8FF3419C1911">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:43:45 UTC</createdTime>
-<ownerDesignName>health</ownerDesignName>
-<engineerTo>
-<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nombre compañia seguro" id="9B9D259E-AB44-D0C3-9E6D-2C52E41B1E8B">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:43:56 UTC</createdTime>
-<ownerDesignName>health</ownerDesignName>
-<engineerTo>
-<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

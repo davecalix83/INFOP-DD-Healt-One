@@ -23,7 +23,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="BB7FCDC4-B8CE-7D8E-0DDA-98D2565B7C7E">
@@ -34,29 +35,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="especialidad" id="3338701D-6718-B5CC-13C2-03BC7ACF2545">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:44:39 UTC</createdTime>
-<ownerDesignName>health</ownerDesignName>
-<engineerTo>
-<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="hospital afiliacion" id="DB7BF78B-619E-E53A-EB68-A37E4431AADF">
-<createdBy>hguzman</createdBy>
-<createdTime>2023-08-31 09:44:41 UTC</createdTime>
-<ownerDesignName>health</ownerDesignName>
-<engineerTo>
-<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="839B944E-C3A9-A576-E30B-FC3A50DA5CFA">
@@ -67,7 +47,8 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="EA25D085-5374-6325-C84B-EFB292EFEA42">
@@ -78,7 +59,20 @@
 <item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="3338701D-6718-B5CC-13C2-03BC7ACF2545">
+<createdBy>hguzman</createdBy>
+<createdTime>2023-08-31 09:44:39 UTC</createdTime>
+<ownerDesignName>health</ownerDesignName>
+<engineerTo>
+<item key="536241DB-DE5F-93B7-6231-3E45DDC7FAC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
